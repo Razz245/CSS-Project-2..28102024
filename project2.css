@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: hsl(32, 30%, 67%);
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 20px auto;
+    
+}
+.left-pic{  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.left-pic {
+    height: 462px;
+    width: 300;
+
+}
+.main-img img{
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+
+}
+.right-details{
+    height: 462px;
+    width: 300;
+    background-color: white;
+    border-radius: 0 15px 15px 0;
+    padding: 20px;
+
+
+
+}
+.details h6{
+    letter-spacing: 3px;
+    font-size: 14px;
+    color:hsl(213, 16%, 29%);
+    line-height: 1em;
+}
+
+.details h1{
+    /* font-family:"playfair Display", sans-serif; */
+    font-family:'Fraunces' ;
+    font-size: 35px;
+    line-height: 1em;
+    color: hsl(229, 9%, 34%)
+}
+.details p{
+    color: hsl(228, 11%, 63%);
+    line-height: 1.5em;
+    font-size: 17px;
+}
+.price{
+    display: flex;
+}
+.price h1{
+    margin-right: 30px;
+    color:hsl(150, 63%, 34%);
+    font-family:"Fraunces" sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    
+
+
+}
+.price h3{
+    text-decoration: line-through;
+    color:rgb(58, 63, 63) ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    display: flex;
+    border-radius: 20px;
+
+
+}
+.btn{
+    width: 400px;
+    height: 45px;
+    background-color: hsl(150, 63%, 34%);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.btn i{
+    text-decoration: none;
+    color: #fff;
+
+}
+button .btn:hover{
+    background-color: hsl(150, 63%, 34%);
+}
+button.btn img{
+    padding-right: 5px;
+}
